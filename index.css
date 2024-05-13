@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url(Fonts/CursedTimer.ttf);
+}
+
+body {
+    margin: 0;
+    background: white;
+    display: grid;
+    place-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 36rem; 
+    height: 24rem; 
+    background: #1B244A;
+    border-radius: 2rem;
+}
+.scoreboard {
+    width: 9.6875rem;
+    height: 7.5rem;
+    flex-shrink: 0;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+}
+#home-scorepoints, #guest-scorepoints {
+    border-radius: 0.5rem;
+    background: #080001;
+    color: #F94F6D;
+    text-align: center;
+    font-family: 'CursedTimer';
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8rem;
+    margin: 0;
+}
+.buttongroup {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: 2px solid #9AABD8;
+    color: #395bbb;
+    text-align: center;
+    font-family: 'CursedTimer';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    background: #1B244A;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+button:hover {
+    color: white;
+    border-color: white;
+}
+.systemcontrol {
+    display: flex;
+    align-items: center;
+}
+
+#clearbtn {
+    width: 5rem;
+    height: 3.5rem;
+    color: #F94F6D;
+    background-color: black;
+    cursor: pointer;
+}
